@@ -20,8 +20,8 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
+  color: #faf0f0;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -75,7 +75,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: rgb(243, 220, 158);
+      color: rgb(246, 115, 98);
 }
 
 .smalltext {
@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(243, 220, 158);
+    color: rgb(242, 125, 117);
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #feafaf;
     overflow: hidden;
 }
 
@@ -109,23 +109,64 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(164, 16, 11);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
-}
+    background-color: #e68f8f;
+  }
 
 nav li a.active {
-    background-color: rgb(243, 220, 158);
+    background-color: rgb(247, 148, 135);
 }
 
 #achtergrond{
-  background-image: url("afbeeldingen/blauwe vlinder.avif");
+  background-image: url("afbeeldingen/rode vlinder witte roos.jpeg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#achtergrond2{
+  background-image: url("afbeeldingen/blauwe vlinder.jpeg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#achtergrond3{
+  background-image: url("afbeeldingen/rode vlinders gele bloemen.jpeg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#achtergrond4{
+  background-image: url("afbeeldingen/FANTASMAGORIK® MONARCH II.jpeg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html{
+  min-height: 100%;
+}
+
+body{
+  min-height: 100%;
+}
+
+.middleblock1{
+  background-color: 
+}
+
+.middleblock2 {
+  background-color: rgb(133, 177, 198);
+  height: 1200px;
+  width: 700px;
+  padding: 10px 10px;
+  margin: 0px;
 }
