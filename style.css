@@ -75,7 +75,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: rgb(243, 220, 158);
 }
 
 .smalltext {
@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: rgb(243, 220, 158);
     text-decoration: none;
 }
 
@@ -120,5 +120,12 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(243, 220, 158);
+}
+
+#achtergrond{
+  background-image: url("afbeeldingen/blauwe vlinder.avif");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
