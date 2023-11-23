@@ -21,7 +21,7 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
-  color: #faf0f0;               /* tekstkleur donkergrijs */
+  color: #000000;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -62,7 +62,7 @@ img {
 
 .item-plaatje {
   float:left;
-  width:250px;
+  width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(242, 125, 117);
+    color: rgb(245, 94, 83);
     text-decoration: none;
 }
 
@@ -159,14 +159,10 @@ body{
   min-height: 100%;
 }
 
-.middleblock1{
-  background-color: 
-}
-
-.middleblock2 {
-  background-color: rgb(133, 177, 198);
+.middleblock{
+  background-color: rgba(247, 254, 255, 0.611);
   height: 1200px;
   width: 700px;
-  padding: 10px 10px;
   margin: 0px;
+  padding: 0px;
 }
