@@ -75,7 +75,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: rgb(246, 115, 98);
+      color: rgb(0, 0, 0);
 }
 
 .smalltext {
@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(245, 94, 83);
+    color: rgb(251, 94, 94);
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #feafaf;
+    background-color: #f18585;
     overflow: hidden;
 }
 
@@ -120,7 +120,7 @@ nav li a:hover {
   }
 
 nav li a.active {
-    background-color: rgb(247, 148, 135);
+    background-color: rgb(244, 165, 165);
 }
 
 #achtergrond{
@@ -138,14 +138,14 @@ nav li a.active {
 }
 
 #achtergrond3{
-  background-image: url("afbeeldingen/rode vlinders gele bloemen.jpeg");
+  background-image: url("/afbeeldingen/_ (3).jpeg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #achtergrond4{
-  background-image: url("afbeeldingen/FANTASMAGORIK® MONARCH II.jpeg");
+  background-image: url("afbeeldingen/_ (1).jpeg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,6 +162,22 @@ body{
 .middleblock{
   background-color: rgba(247, 254, 255, 0.611);
   height: 1200px;
+  width: 700px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blok{
+  background-color: rgba(247, 254, 255, 0.611);
+  height: 50px;
+  width: 700px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blok2{
+  background-color: rgba(247, 254, 255, 0.611);
+  height: 30px;
   width: 700px;
   margin: 0px;
   padding: 0px;
